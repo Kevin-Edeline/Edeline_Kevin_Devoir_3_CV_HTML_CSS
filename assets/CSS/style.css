@@ -1,0 +1,211 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(..//fonts/Raleway-VariableFont_wght.otf) format('opentype');
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.otf) format('opentype');
+}
+html {
+    background-color: #fafafa;
+    font-family: "Raleway-VariableFont", sans-serif;
+    font-size: 1.2em;
+}
+body {
+    width: 1160px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+/* En tête */
+header {
+    background-color: #17abb3;
+    color: #ffffff;
+    height: 300px;
+}
+aside {
+    height: 1200px;
+}
+main {
+    height: 1200px;
+}
+img {
+    float: left;
+    height: 160px;
+    width: 150px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 110px;
+    cursor: zoom-in;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-size: 3.5em;
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-bottom: -10px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    padding-left: 200px;
+}
+header ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 310px;
+    list-style-type: none;
+    font-family: "Raleway-Italic-VariableFont";
+}
+i {
+    padding-right: 15px;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+}
+.part1 {
+    padding-bottom: 7px;
+}
+/* Corp de la page */
+h3 {
+    font-size: 1.5em;
+    color: #17abb3;
+    font-family: "Lato", sans-serif;
+}
+div {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+aside {
+    padding-top: 30px;
+    background-color: #f5f5f5;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+main {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+span {
+    color: black;
+}
+.bold {
+    font-weight: bold;
+}
+aside hr {
+    border: none;
+    background-color: #e3e3e3;
+    width: 330px;
+    height: 2px;
+}
+main hr {
+    border: none;
+    background-color: #e3e3e3;
+    width: 650px;
+    height: 2px;
+}
+small {
+    font-style: italic;
+}
+.pro {
+    margin-bottom: -4px;
+}
+.hover:hover {
+    background-color: #e3e3e3;
+    border-left: #17abb3 solid 5px;
+}
+/* Partie profil */
+    #profile {
+        text-align: justify;
+        text-indent: 35px;
+    }
+    #para1 {
+        margin-bottom: -15px;
+    }
+/* Partie compétence */
+    #competence i {
+        margin: -3px;
+        font-size: 0.8em;
+        color: #17abb3;
+        float: right;
+    }
+/* Partie langue */
+#langues {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.l1 {
+    font-weight: bold;
+    text-align: left;
+}
+.l2 {
+    text-align: right;
+}
+time {
+    float: right;
+    text-align: right;
+    color: #17abb3;
+}
+/* Partie qualités */
+#qualite li {
+    list-style-type: square;
+    color: #17abb3;
+    font-size: 1.5em;
+}
+#qualite span {
+    font-size: 0.7em;
+}
+/* Partie hobby */
+#hobby li {
+    list-style-type: square;
+    color: #17abb3;
+    font-size: 1.5em;
+}
+#hobby span {
+    font-size: 0.7em;
+}
+/* Pied de page */
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    height: 90px;
+}
+footer #socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+#socialmedia a {
+    color: #ffffff;
+}
+.fa-github {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+footer small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands:hover {
+    opacity: 80%;
+}
